@@ -1,0 +1,16 @@
+
+<div class="row info-box" ng-show="page.isSet(3)">
+    <div class="col-md-12 my-divide my-header">
+        <h1>Works</h1> 
+    </div>    
+    <div class="row" ng-repeat="work in workpanel.works">
+        <div class="col-md-2 section-link">
+            <h3>{{work.title | uppercase}}</h3>
+        </div>
+        <div class="col-md-10">
+            <p>
+            {{work.desc}}
+            </p>
+        </div>
+    </div>
+</div>

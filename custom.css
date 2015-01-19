@@ -1,0 +1,145 @@
+body {
+    padding-top: 50px;
+}
+
+.big-page {
+    width: 100%;
+    background: url("img/bg.png") no-repeat center center fixed;
+    background-size: cover;
+    /*background-size: auto 100%;
+    /*background-color: red;*/
+    height: 100%;
+    min-height: 100%;
+}
+
+.main-body {
+    text-align: center;
+    width: 80%;
+    padding: 2em;
+    height: 100%;
+    min-height: 100%;
+    margin-bottom: -100px;
+}
+
+.athome {
+    background-color: rgba(0,0,0,0.3);
+    animation-duration: 0.5s;
+    animation-name: fadeout;
+}
+
+.notathome {
+    background-color: rgba(0,0,0,1.0);
+    animation-duration: 0.5s;
+    animation-name: fadein;
+}
+
+@keyframes fadeout {
+    from {
+        background-color: rgba(0,0,0,1.0);
+    }
+
+    to {
+        background-color: rgba(0,0,0,0.3);
+    }
+}
+
+@keyframes fadein {
+    from {
+        background-color: rgba(0,0,0,0.3);
+    }
+
+    to {
+        background-color: rgba(0,0,0,1.0);
+    }
+
+}
+
+.white-box {
+    opacity: 1.0;
+    outline: 1px solid white;
+    padding: 0.25em 2em 0.5em;
+}
+
+.white-box:hover {
+    background-color: red;
+}
+
+.white-box h3 {
+    font-family: 'Poiret One', cursive;
+    color: white;
+}
+
+.opt-link {
+}
+
+.opt-box {
+    /*padding: 10% 33%;*/
+    margin: 20% 20% 0% 20%;
+    outline: 1px solid white;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.opt-box h1 {
+    font-family: 'Titillium Web', sans-serif;
+    color: ghostwhite;
+}
+
+.title-box {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+ul.nav li {
+    text-align: center;
+}
+
+.section-link {
+    /*height: 240px;*/
+    background-color: red;
+}
+
+.section-link img {
+    height: 240px;
+    width: 240px;
+}
+
+.info-box {
+    text-align: left;
+    margin: 5% 10% 0% 10%;
+    color: ghostwhite;
+
+}
+
+.my-divide {
+    border-bottom: 1px solid white;
+}
+
+.my-content {
+    margin-top: 2em;
+}
+
+.my-header {
+    font-family: 'Poiret One', cursive;
+}
+.img-link {
+    border: 5px solid black;
+}
+
+/*footer css*/
+footer {
+    background-color: #222;
+    color: ghostwhite;
+    text-align: center;
+    height: 100px;
+    padding: 45px;
+}
