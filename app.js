@@ -8,7 +8,7 @@
     var works = [
     {
         title: 'Trexquant',
-        desc: 'test test test',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit diam vel magna fermentum, in porttitor purus convallis. Phasellus venenatis et ex sit amet euismod. Morbi vel quam vitae magna aliquam finibus vel at erat. Vivamus eu sodales dolor. Etiam et maximus ex. Quisque dignissim nibh porta tellus blandit, a dictum ligula fringilla. In tempus mollis fermentum.',
     },
     {
         title: 'GMAT test',
@@ -60,7 +60,7 @@
         
     });
 
-    var navs = ['Home', 'About', 'Project Name', 'Works', 'Contact'];
+    var navs = ['Home', 'About', 'Phil Park', 'Works', 'Contact'];
     
     app.directive('navBar', function(){
         return {

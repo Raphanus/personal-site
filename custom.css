@@ -89,6 +89,11 @@ body {
     vertical-align: middle;
 }
 
+.title-box h1 {
+    font-family: 'Poiret One', cursive;
+    color: ghostwhite;
+}
+
 
 .navbar .navbar-nav {
     display: inline-block;
@@ -105,7 +110,12 @@ ul.nav li {
 
 .section-link {
     /*height: 240px;*/
+    margin-top: 1em;
     background-color: red;
+}
+
+.section-text p {
+    margin-top: 1em;
 }
 
 .section-link img {
@@ -135,10 +145,16 @@ ul.nav li {
     border: 5px solid black;
 }
 
+.logos {
+    font-family: 'Times New Roman', serif;
+    font-size: 24pt;
+    color: ghostwhite;
+}
+
 /*footer css*/
 footer {
     background-color: #222;
-    color: ghostwhite;
+    color: dimgray;
     text-align: center;
     height: 100px;
     padding: 45px;
