@@ -3,14 +3,16 @@
     <div class="col-md-12 my-divide my-header">
         <h1>WORKS</h1> 
     </div>    
-    <div ng-repeat="work in workpanel.works">
-        <div class="col-md-3 section-link">
-            <h3>{{work.title | uppercase}}</h3>
+    <div class="row">
+        <div class="col-md-3 col-xs-4">
+            <div class="section-link" ng-repeat="work in workpanel.works" ng-click="workpanel.setBlurb(work.desc)">
+                <h3>{{work.title | uppercase}}</h3>
+            </div>
         </div>
-        <div class="col-md-9 section-text">
-            <p>
-            {{work.desc}}
-            </p>
+        <div class="col-md-6">
+            <div class="section-text">
+                {{workpanel.workBlurb}}
+            </div>
         </div>
     </div>
 </div>

@@ -96,6 +96,13 @@
             templateUrl: 'work-panels.html',
             controller:function(){
                 this.works = works;
+
+                this.workBlurb = "This page features a collection of several of my projects. Please click to find out more individual information";
+
+                this.setBlurb = function(t) {
+                    this.workBlurb = t;
+                }
+
             },
             controllerAs: "workpanel"
         };
