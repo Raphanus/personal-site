@@ -109,13 +109,25 @@ ul.nav li {
 }
 
 .section-link {
-    /*height: 240px;*/
-    margin-top: 1em;
+    /*height: 240px;
+    margin-top: 1em;*/
     background-color: red;
+    width: 100%;
+}
+
+.section-link:hover {
+    background-color: #333;
+
+    width: 120%;
+}
+
+.section-text {
+    background-color: #333;
 }
 
 .section-text p {
-    margin-top: 1em;
+    padding: 2em;
+
 }
 
 .section-link img {
