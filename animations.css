@@ -26,15 +26,15 @@
     }
 
     to {
-        width: 110%;
-        margin-left: 2em;
+        width: 100%;
+        margin-left: 2.5em;
     }
 }
 
 @keyframes linkshrink {
     from {
-        width: 110%;
-        margin-left: 2em;
+        width: 100%;
+        margin-left: 2.5em;
         background-color: red;
     }
 

@@ -97,8 +97,8 @@ ul.nav li {
 
 .section-link.active {
     background-color: red;
-    margin-left: 2em;
-    width: 110%;
+    margin-left: 2.5em;
+    width: 100%;
 }
 
 .section-link.active:hover {
@@ -109,8 +109,8 @@ ul.nav li {
 .section-link.inactive:hover {
     background-color: red; 
 
-    margin-left: 2em;
-    width: 110%;
+    margin-left: 2.5em;
+    width: 100%;
     animation-duration: 0.25s;
     animation-name: linkexpand;
 
