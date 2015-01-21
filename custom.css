@@ -87,6 +87,7 @@ ul.nav li {
     text-align: center;
 }
 
+/* work panel CSS */
 .section-link {
     /*height: 240px;
     margin-top: 1em;*/
@@ -100,6 +101,11 @@ ul.nav li {
     width: 110%;
 }
 
+.section-link.active:hover {
+    
+    background-color: red;
+}
+
 .section-link.inactive:hover {
     background-color: red; 
 
@@ -110,15 +116,19 @@ ul.nav li {
 
 }
 
-.section-link.active:hover {
-    
-    background-color: red;
+.section-link.inactive {
+
+    animation-duration: 0.25s;
+    animation-name: linkshrink;
 }
+
 .section-link h3 {
     padding: 0.35em 0.5em;
     margin-top: 1px;
     margin-bottom: 0px;
 }
+
+
 .section-text {
     background-color: #222;
     height: 60%;
@@ -129,6 +139,13 @@ ul.nav li {
     padding: 2em;
 
 }
+
+.section-text h4 {
+    margin-top: 1px;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
 
 .section-link img {
     height: 240px;

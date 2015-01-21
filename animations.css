@@ -30,3 +30,18 @@
         margin-left: 2em;
     }
 }
+
+@keyframes linkshrink {
+    from {
+        width: 110%;
+        margin-left: 2em;
+        background-color: red;
+    }
+
+    to {
+        width: 100%;
+        margin-left: 0em;
+        background-color: #222;
+    }
+}
+

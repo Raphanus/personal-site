@@ -8,10 +8,17 @@
     var works = [
     {
         title: 'Trexquant',
+        subtitle: 'Trexquant Data Tabulator',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit diam vel magna fermentum, in porttitor purus convallis. Phasellus venenatis et ex sit amet euismod. Morbi vel quam vitae magna aliquam finibus vel at erat. Vivamus eu sodales dolor. Etiam et maximus ex. Quisque dignissim nibh porta tellus blandit, a dictum ligula fringilla. In tempus mollis fermentum.',
     },
     {
-        title: 'GMAT test',
+        title: 'Trade Simulator',
+        subtitle: 'Intra Day Trade Simulations',
+        desc: 'Quick project developed in MATLAB that incorporated the existing simulation framework',
+    },
+    {
+        title: 'GRE Vocab Quizzer',
+        subtitle: 'Intelligent Vocabulary',
         desc: 'hi hi hi',
     }];
 
