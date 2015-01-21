@@ -99,6 +99,15 @@
 
                 this.workBlurb = "This page features a collection of several of my projects. Please click to find out more individual information";
 
+                this.setWork = function(work) {
+                    this.current = work;
+                    this.workBlurb = this.current.desc;
+                }
+
+                this.workSelected = function(work) {
+                    return this.current === work;
+                }
+                
                 this.setBlurb = function(t) {
                     this.workBlurb = t;
                 }

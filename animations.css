@@ -1,0 +1,32 @@
+@keyframes fadeout {
+    from {
+        background-color: rgba(0,0,0,1.0);
+    }
+
+    to {
+        background-color: rgba(0,0,0,0.3);
+    }
+}
+
+@keyframes fadein {
+    from {
+        background-color: rgba(0,0,0,0.3);
+    }
+
+    to {
+        background-color: rgba(0,0,0,1.0);
+    }
+
+}
+
+@keyframes linkexpand {
+    from {
+        width: 100%;
+        margin-left: 0em;
+    }
+
+    to {
+        width: 110%;
+        margin-left: 2em;
+    }
+}

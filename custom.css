@@ -33,27 +33,6 @@ body {
     animation-name: fadein;
 }
 
-@keyframes fadeout {
-    from {
-        background-color: rgba(0,0,0,1.0);
-    }
-
-    to {
-        background-color: rgba(0,0,0,0.3);
-    }
-}
-
-@keyframes fadein {
-    from {
-        background-color: rgba(0,0,0,0.3);
-    }
-
-    to {
-        background-color: rgba(0,0,0,1.0);
-    }
-
-}
-
 .white-box {
     opacity: 1.0;
     outline: 1px solid white;
@@ -111,18 +90,39 @@ ul.nav li {
 .section-link {
     /*height: 240px;
     margin-top: 1em;*/
-    background-color: red;
+    background-color: #222;
     width: 100%;
 }
 
-.section-link:hover {
-    background-color: #333;
-
-    width: 120%;
+.section-link.active {
+    background-color: red;
+    margin-left: 2em;
+    width: 110%;
 }
 
+.section-link.inactive:hover {
+    background-color: red; 
+
+    margin-left: 2em;
+    width: 110%;
+    animation-duration: 0.25s;
+    animation-name: linkexpand;
+
+}
+
+.section-link.active:hover {
+    
+    background-color: red;
+}
+.section-link h3 {
+    padding: 0.35em 0.5em;
+    margin-top: 1px;
+    margin-bottom: 0px;
+}
 .section-text {
-    background-color: #333;
+    background-color: #222;
+    height: 60%;
+    margin-top: 1px;
 }
 
 .section-text p {
