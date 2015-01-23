@@ -180,6 +180,32 @@ ul.nav li {
     color: ghostwhite;
 }
 
+/*contact page css*/
+
+#mymail:hover {
+    background: red;
+}
+
+#mylinkedin:hover {
+    background: #1D87BD;
+}
+
+#mytwitter:hover {
+    background: #55ACEE;
+}
+
+
+.img-icon {
+    background: #222;
+    height: 60px;
+    width: 60px;
+    margin: 1.5em;
+}
+
+.my-content a:hover {
+    text-decoration: none;
+}
+
 /*footer css*/
 footer {
     background-color: #222;
